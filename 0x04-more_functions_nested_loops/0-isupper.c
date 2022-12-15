@@ -4,7 +4,7 @@
  * _isupper - Check if a letter is uppercase
  * @x: The number to be checked
  *
- * Return: 1 for upper letter or 0 for any else
+ * Return: 1 for uppercase letter or 0 for any else
  */
 int _isupper(int x)
 {
@@ -12,6 +12,7 @@ int _isupper(int x)
 	{
 		return (1);
 	}
+
 	else
 	{
 	return (0);
