@@ -36,7 +36,7 @@ void iterate_wild(char **wildstr)
 	if (**wildstr == '*')
 	{
 		(*wildstr)++;
-		iterate_wild(wildstr)
+		iterate_wild(wildstr);
 	}
 }
 
