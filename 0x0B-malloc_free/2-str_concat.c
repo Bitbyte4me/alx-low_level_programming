@@ -2,41 +2,38 @@
 #include <stdlib.h>
 
 /**
- * str_concat - A function that concatenates two strings
- * @s1: An input pointer of the first string
- * @s2: An input pointer of the second string
- * Return: Apointer to concatened strings or NULL if it str is NULL
+ * str_concat - Concatenates two strings.
+ * @s1: The string to be concatenated upon.
+ * @s2: The string to be concatenated to s1.
+ *
+ * Return: If concatenation fails - NULL.
+ * Otherwise - a pointer the newly-allocated space in memory
+ * containing the concatenated strings
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *new_str, *starts1, *starts2;
-	int i = 0, lens1 = 0, lens2 = 0;
+	char *concat_str;
+	int index, concat_index = 0, len = 0;
 
-	starts1 = s1;
-	starts2 = s2;
 	if (s1 == NULL)
 		s1 = "";
-	while (*s1)
-		lens1++;
-		s1++;
-	s1 = starts1;
+
 	if (s2 == NULL)
 		s2 = "";
-	while (*s2)
-		lens2++;
-		s2++;
-	s2 = starts2;
-	new_str = malloc(sizeof(char) * (lens1 + lens2 + 1));
-	starts1 = new_str;
-	if (new_str == NULL)
+
+	for (index = 0; s1[index] || s2[index]; index++)
+		len++;
+
+	concat_str = malloc(sizeof(char) * len);
+
+	if (concat_str == NULL)
 		return (NULL);
-	for (; i < (lens1 + lens2); i++)
-		if (i < lens1)
-			new_str[i] = *s1;
-			s1++;
-		else
-			new_str[i] = *s2;
-			s2++;
-	new_str[i] = '\0';
-	return (starts1);
+
+	for (index = 0; s1[index]; index++)
+		concat_str[concat_index++] = s1[index];
+
+	for (index = 0; s2[index]; index++)
+		concat_str[concat_index++] = s2[index];
+
+	return (concat_str);
 }
