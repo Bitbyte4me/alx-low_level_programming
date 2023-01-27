@@ -6,10 +6,11 @@ main:
 	mov rdi, 1
 	mov rsi, msg
 	mov rdx, msglen
+	syscall
 
 	mov rax, 60
 	mov rdi, 0
-	syscallsyscall
+	syscall
 
 	section .rodata
 	msg: db "Hello, Holberton", 10
