@@ -1,5 +1,5 @@
-#ifndef "MAIN_H"
-#define "MAIN_H"
+#ifndef _FILE_IO_
+#define _FILE_IO_
 
 #include <sys/types.h>
 #include <sys/stat.h>
