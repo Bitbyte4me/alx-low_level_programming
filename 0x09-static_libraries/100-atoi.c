@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * _atoi - a function that converts string to integer
- * @s: An input string
+ * _atoi - A fxn that converts string to integer.
+ * @s: Input string
  *
- * Return: integer from conversion
+ * Return: integer from conversion.
  */
 int _atoi(char *s)
 {

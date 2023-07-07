@@ -2,10 +2,10 @@
 
 /**
  * _abs - Check Main
- * @r: An integre input
- * Description: This function returns absolute value of a number
+ * @r: An integer input.
+ * Description: This fxn returns absolute value of a number.
  *
- * Return: Absolut value of number r
+ * Return: Absolute value of number
  */
 int _abs(int r)
 {

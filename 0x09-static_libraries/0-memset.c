@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memset - a function that fills memory with constant bytes
- * @s: location to fill
- * @b: char to fill location with
- * @n: number of bytes to fill
+ * _memset -  fxn that fills memory with constant bytes
+ * @s: location to fill.
+ * @b: character to fill location with.
+ * @n: number of bytes to fill.
  *
  * Return: returns pointer to location filled
  */
