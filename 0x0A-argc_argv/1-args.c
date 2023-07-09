@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints the number of args
- * @argc: argument count
- * @argv: argument vector
+ * main - Prints the number of args.
+ * @argc: rep argument count.
+ * @argv: rep argument vector.
  *
  * Return: Always zero
  */
