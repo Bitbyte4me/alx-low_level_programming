@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * op_add - a function that returns the sum of a and b.
+ * op_add - a fxn that returns the sum of a and b.
  * @a: an input integer
  * @b: an input integer
  *
@@ -27,7 +27,7 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - a function that returns the multiply of a and b.
+ * op_mul - a fxn that returns the multiply of a and b.
  * @a: an input integer
  * @b: an input integer
  *
@@ -39,7 +39,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - a function that returns the divide of a and b.
+ * op_div - a fxn that returns the divide of a and b.
  * @a: an input integer
  * @b: an input integer
  *
@@ -57,7 +57,7 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - a function that returns the module of a and b.
+ * op_mod - a fxn that returns the module of a and b.
  * @a: an input integer
  * @b: an input integer
  *

@@ -2,11 +2,11 @@
 #include "function_pointers.h"
 
 /**
- * array_iterator - Executes a function given as
+ * array_iterator - Executes a fxn given as
  * a parameter on each element of an array.
  * @array: The array.
- * @size: The size of array.
- * @action: A pointer to the function to be executed.
+ * @size: The size of an array.
+ * @action: A pointer to the fxn to be executed.
  *
  * Return: Nothing
  */
