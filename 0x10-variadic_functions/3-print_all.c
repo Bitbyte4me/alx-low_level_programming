@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * print_all - A function prints anyting.
+ * print_all - A fxn prints anyting.
  * @format: A list of type of arguments passed to the function.
  * Return: Nothing
  */
