@@ -3,8 +3,9 @@
 #include "lists.h"
 
 /**
-  * list_len - Show the number of elements of a list
-  * @h: A linked list
+  * list_len - Show the number of elements of a list.
+  * @h: A linked list.
+  *
   *
   * Return: The number of elements of a list
   */

@@ -5,7 +5,7 @@ void first(void) __attribute__ ((constructor));
 /**
   * first - ...
   *
-  * Return: Nothing.
+  * Return: Nothing...
   */
 void first(void)
 {
